@@ -28,7 +28,7 @@ Download our pretrained models from [here](https://umass-my.sharepoint.com/:u:/g
 ```
 python -u inference/inference_os.py --init_weight_path="checkpoints/train_cluster/model_best.pth.tar" --test_folder="DATASET_PATH/okaysamurai_sheets/" --output_folder=CUSTOMIZED_OUTPUT_FOLDER
 ```
-2. To qualitatively evaluate on OkaySamurai data, use script `evaluate/evaluate_select.py`. 
+2. To quantitatively evaluate on OkaySamurai data, use script `evaluate/evaluate_select.py`. 
 Set "data_folder" and "res_folder" to the paths to "okaysamurai_sheets" folder and your output folder.
 3. To test on Sprite data:
 ```
