@@ -1,0 +1,6 @@
+*/__pycache__/
+.idea/
+checkpoints/
+logs/
+*.out
+*.txt
