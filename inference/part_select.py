@@ -1,10 +1,11 @@
 import copy, os, time, glob, itertools, numpy as np, cv2
 from scipy.io import savemat, loadmat
 from scipy.optimize import linprog
+from scipy.spatial import Delaunay
 from skimage import transform
 from skimage.measure import label, regionprops, ransac
 from skimage.transform import SimilarityTransform
-from inference.deform import create_cage, Delaunay
+from inference.create_cage import create_cage
 from inference.ARAP_RECON_fast import ARAP_Rendering_Deformer as Deformer
 from utils.os_utils import mkdir_p
 

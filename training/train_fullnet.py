@@ -326,11 +326,11 @@ if __name__ == "__main__":
     parser.add_argument('--logdir', default='logs/test', type=str, metavar='LOG', help='directory to save logs')
     parser.add_argument('--resume', default='', type=str, metavar='PATH',
                         help='path to latest checkpoint (default: none)')
-    parser.add_argument('--train_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/OkaySamural_syn/train/',
+    parser.add_argument('--train_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/okay_samurai/train/',
                         type=str, help='folder of training data')
-    parser.add_argument('--val_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/OkaySamural_syn/val/',
+    parser.add_argument('--val_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/okay_samurai/val/',
                         type=str, help='folder of validation data')
-    parser.add_argument('--test_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/OkaySamural_syn/test/',
+    parser.add_argument('--test_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/okay_samurai/test/',
                         type=str, help='folder of testing data')
     parser.add_argument('--output_dim', default=64, type=int, metavar='N', help='output_dim')
     parser.add_argument('--train_s', default=12, type=int, metavar='N', help='training segmentation number')

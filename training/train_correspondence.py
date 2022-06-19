@@ -221,11 +221,11 @@ if __name__ == "__main__":
     parser.add_argument('--logdir', default='logs/test', type=str, help='directory to save logs')
     parser.add_argument('--resume', default='', type=str, help='path to latest checkpoint (default: none)')
     parser.add_argument('--dataset', default='okaysamurai', type=str)  # okaysamurai, creativeflow
-    parser.add_argument('--train_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/OkaySamural_syn/train/', #creative_flow, OkaySamural_syn/train/
+    parser.add_argument('--train_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/okay_samurai/train/', #creative_flow, OkaySamural_syn/train/
                         type=str, help='folder of training data')
-    parser.add_argument('--val_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/OkaySamural_syn/val/',
+    parser.add_argument('--val_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/okay_samurai/val/',
                         type=str, help='folder of validation data')
-    parser.add_argument('--test_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/OkaySamural_syn/test/',
+    parser.add_argument('--test_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/okay_samurai/test/',
                         type=str, help='folder of testing data')
     parser.add_argument('--init_corrnet_path', default='', type=str)  #../checkpoints/pretrain_corrnet_cf/model_best.pth.tar
     parser.add_argument('--output_dim', default=64, type=int, help='output_dim')

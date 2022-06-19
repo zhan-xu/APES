@@ -214,7 +214,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--arch', default='fullnet')
     parser.add_argument('--init_weight_path', default="../checkpoints/train_fullnet/model_best.pth.tar", type=str)
-    parser.add_argument('--test_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/okaysamural_sheets/',
+    parser.add_argument('--test_folder', default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/okaysamural_sheets/',
                         type=str, help='folder of testing data')
     parser.add_argument('--output_folder', type=str, help='output folder',
                         default='/mnt/neghvar/mnt/DATA_LINUX/zhan/puppets/results/train_cluster_os/')

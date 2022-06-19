@@ -346,7 +346,7 @@ class ARAP_Rendering_Deformer:
 
 if __name__ == "__main__":
     from utils.vis_utils import visualize_cage, visualize_corr
-    from inference.deform import create_cage
+    from inference.create_cage import create_cage
     from skimage import transform
     from skimage.transform import SimilarityTransform
 
