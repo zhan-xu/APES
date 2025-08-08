@@ -19,10 +19,10 @@ conda install pytorch3d -c pytorch3d
 ## Testing & Evaluation
 ### Testing Data
 Download our testing data from the following links:
-1. [OkaySamurai](https://umass-my.sharepoint.com/:u:/g/personal/zhanxu_umass_edu/Ef1skomqQAtDh4ABrywdo2oB7fUJSgmBY2dYP-zlxva-0A?e=56V7Yg)
-2. [Sprite dataset](https://umass-my.sharepoint.com/:u:/g/personal/zhanxu_umass_edu/EXFVwyVPLctIq3nPamoxiwAB8e5Mz1eU72zIWAicBWKZBA?e=XJo6O2).
+1. [OkaySamurai](https://drive.google.com/file/d/19aNcl7sOECXtbrMqOmKOEdZnpl9S275W/view?usp=sharing)
+2. [Sprite dataset](https://drive.google.com/file/d/1zPJqSIwFTjiyXqoXdf0srSeXD2KGLhFi/view?usp=sharing).
 ### Pretrained models
-Download our pretrained models from [here](https://umass-my.sharepoint.com/:u:/g/personal/zhanxu_umass_edu/EYv0I4AyNnJEtr9pU_yEv_gB2AbiCYaWMRtCQkKYq9dhRA?e=DzcwN7).
+Download our pretrained models from [here](https://drive.google.com/file/d/1iUwVu7CFNJs-YgVE10IDQWDvkO_RIOaM/view?usp=sharing).
 ### Testing steps:
 1. To test on OkaySamurai data:
 ```
@@ -37,9 +37,9 @@ python -u inference/inference_real.py --init_weight_path="checkpoints/train_clus
 ## Training
 ### Training Datasets
 Download the training datasets from the following links:
-1. [OkaySamurai dataset](https://umass-my.sharepoint.com/:u:/g/personal/zhanxu_umass_edu/EUk_2ZznigpNjCqr8wx4pBIBDs85cDHPwm4jFgFrc0S3FQ?e=NjbQD0) (1.9G, 34.9G after decompression).
+1. [OkaySamurai dataset](https://drive.google.com/file/d/1JTDDqHerlnpCu6SZpleJSN3cxQi8gOfg/view?usp=sharing) (1.9G, 34.9G after decompression).
 
-2. (Optional) A [processed subset](https://umass-my.sharepoint.com/:u:/g/personal/zhanxu_umass_edu/EUQNyinpUhxCgp2rRtXTAAkBANRZyxJpKZX2lXTfDU9OmA?e=T5Utnn) of CreativeFlow+ dataset we used to pretrain the correspondence module (992M, 22G after decompression). Original dataset is [here](https://www.cs.toronto.edu/creativeflow/#download).
+2. (Optional) A [processed subset](https://drive.google.com/file/d/19eVSHc6gO0AQOx1CXf52CBBwBit-KhJC/view?usp=sharing) of CreativeFlow+ dataset we used to pretrain the correspondence module (992M, 22G after decompression). Original dataset is [here](https://www.cs.toronto.edu/creativeflow/#download).
 
 ### Training steps:
 1. (Optional) Pretrain the correspondence module on Creative Flow+ dataset.
